@@ -131,3 +131,76 @@ body {
   background:#3cb371;
   color:white;
 }
+
+
+/* ===============================
+   MOBILE
+   =============================== */
+@media (max-width: 768px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .main-title {
+    font-size: 22px;
+    margin: 6px 0 4px;
+  }
+
+  .top-bar {
+    gap: 12px;
+  }
+
+  .top-bar button {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .planner {
+    width: 100%;
+    height: calc(100vh - 90px);
+    grid-template-columns: 56px 1fr;
+    border-radius: 0;
+  }
+
+  /* días */
+  .dias div {
+    font-size: 11px;
+    padding: 6px 0;
+  }
+
+  /* horas */
+  .horas {
+    grid-template-rows: repeat(15, 38px);
+  }
+
+  .horas div {
+    line-height: 38px;
+    font-size: 11px;
+  }
+
+  /* grilla */
+  .grid {
+    grid-template-rows: repeat(15, 38px);
+    overflow-y: auto;
+  }
+
+  .grid::before {
+    background-size: calc(100% / 5) 38px;
+  }
+
+  /* bloques */
+  .bloque {
+    margin: 3px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+
+  .bloque .nombre {
+    font-size: 16px;
+  }
+
+  .bloque .hora {
+    font-size: 10px;
+  }
+}
