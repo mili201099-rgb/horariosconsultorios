@@ -20,7 +20,7 @@ const data = {
 
     {dia:0, desde:13, hasta:18, nombre:"MARIANA", clase:"mariana"},
     {dia:3, desde:12, hasta:16, nombre:"MARIANA", clase:"mariana"},
-    {dia:4, desde:13, hasta:18, nombre:"MARIANA", clase:"mariana"},
+    {dia:4, desde:13, hasta:20, nombre:"MARIANA", clase:"mariana"},
 
     {dia:1, desde:16, hasta:22, nombre:"MARISA", clase:"marisa"},
     {dia:2, desde:16, hasta:22, nombre:"MARISA", clase:"marisa"},
