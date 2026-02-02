@@ -12,7 +12,6 @@ let actual = 0;
 // ===============================
 const data = {
   VERDE: [
-    {dia:0, desde:8, hasta:13, nombre:"ADEN", clase:"aden"},
     {dia:0, desde:18, hasta:22, nombre:"ADEN", clase:"aden"},
     {dia:1, desde:8, hasta:16, nombre:"ADEN", clase:"aden"},
     {dia:2, desde:12, hasta:16, nombre:"ADEN", clase:"aden"},
@@ -39,7 +38,7 @@ const data = {
   ],
 
   AZUL: [
-    {dia:0, desde:13, hasta:20, nombre:"IVANA", clase:"ivana"},
+    {dia:0, desde:12, hasta:20, nombre:"IVANA", clase:"ivana"},
     {dia:3, desde:12, hasta:20, nombre:"MAIDA", clase:"maida"},
     {dia:1, desde:12, hasta:20, nombre:"MARIA DEL CARMEN", clase:"maria"},
     {dia:2, desde:8, hasta:12, nombre:"LUIS", clase:"luis"},
