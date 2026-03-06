@@ -14,7 +14,7 @@ const data = {
   VERDE: [
     {dia:0, desde:18, hasta:22, nombre:"ADEN", clase:"aden"},
     {dia:1, desde:8, hasta:16, nombre:"ADEN", clase:"aden"},
-    {dia:2, desde:12, hasta:16, nombre:"ADEN", clase:"aden"},
+    {dia:2, desde:12, hasta:16, nombre:"MARIANA", clase:"mariana"},
     {dia:4, desde:20, hasta:22, nombre:"ADEN", clase:"aden"},
 
     {dia:0, desde:13, hasta:18, nombre:"MARIANA", clase:"mariana"},
@@ -41,6 +41,7 @@ const data = {
     {dia:3, desde:12, hasta:20, nombre:"MAIDA", clase:"maida"},
     {dia:1, desde:12, hasta:20, nombre:"MARIA DEL CARMEN", clase:"maria"},
     {dia:2, desde:8, hasta:12, nombre:"LUIS", clase:"luis"},
+    {dia:2, desde:17, hasta:21, nombre:"ADEN", clase:"aden"},
     {dia:4, desde:8, hasta:16, nombre:"ROMINA", clase:"romina"}
   ]
 };
