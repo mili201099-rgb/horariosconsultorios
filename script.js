@@ -27,7 +27,7 @@ const data = {
   ],
 
   BLANCO: [
-    {dia:0, desde:16, hasta:20, nombre:"MAIDA", clase:"maida"},
+    {dia:0, desde:8, hasta:12, nombre:"MAIDA", clase:"maida"},
     {dia:1, desde:16, hasta:20, nombre:"MAIDA", clase:"maida"},
     {dia:2, desde:8, hasta:20, nombre:"MAIDA", clase:"maida"},
 
